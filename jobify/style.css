@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    column-gap: 20rem;
+}
+
+.navbar{
+    background:darkslategray;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+.logo{
+font-weight: bold;
+color: azure;
+font-size: large;
+}
+.logo a{
+    color: #fff;
+}
+
+ul{
+    display: flex;
+    column-gap: 2rem;
+}
+
+ul a{
+    color:azure;
+}
+
+.home-area{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2rem;
+    background: darkcyan;
+    color: white;
+    height: 500px;
+    padding-top: 50px;
+   
+}
+.apply-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: darkcyan;
+    color: white;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 45%;
+   
+}
+.apply-form input{
+    width: 45%;
+}
+.image-area img{
+    height: 400px;
+    width: 400px;
+}
+.words-area{
+    height: 500px;
+    width: auto;
+    padding: auto;
+    align-items: center;
+    line-height: 8vh;
+}
+.words-area button{
+    height: 40px;
+    width:250px;
+    border:none;
+    background: navy;
+    color: white;
+    font-size: larger;
+    margin-top: 50px;
+}
+.home-form .button{
+    color: white;
+    background: navy;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+.main-area.home-jobs .button{
+    color: white;
+    background: navy;
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
+.home-form h2{
+text-transform: uppercase;
+font-size: larger;
+}
+.home-form input{
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+.home-form label{
+font-weight: bold;
+}
+
+.main-area{
+    display: flex;
+    justify-content: space-around;
+    background: darkcyan;
+    color:#fff;
+    height:500px;
+    
+}
+.jobs-title{
+background:darkcyan ;
+color:white;
+margin:auto;
+width: 100%;
+height: 50px;
+}
+.jobs-title h2{
+    padding-left: 40%;
+}
+
+
+img{
+    height: 250px;
+    width:200px;
+}
+.links{
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    background:darkslategray ;
+}
+.icons{
+padding-left: 50%;
+padding-top: 20px;
+}
+.icons ion-icons a{
+    color:azure;
+    padding-left: 2px;
+
+}
+
+.register-area{
+    background: darkcyan;
+    color: azure;
+    width: 100%;
+    height: 400px;
+    padding-left: 45%;
+    padding-top: 10px;
+    margin: auto;
+}
+.home-form{
+    background: darkcyan;
+    color: azure;
+    width: 100%;
+    height: 600px;
+    padding-left: 25%;
+    padding-top: 10px;
+    margin: auto;
+}
+.register-area input{
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 45%;
+}
+.register-area button{
+    height: 40px;
+    border: none;
+    width: 250px;
+    margin-top: 10px;
+    background: navy;
+    color: #fff;
+}
+.jobs-container{
+    display: flex;
+    column-gap: 2rem;
+    background: darkcyan;
+    color: azure;
+    width: 100%;
+    height: 400px;
+    padding-top: 10px;
+    justify-content: center;  
+}
+.apply-form .text-area{
+    height: 200px;
+}
+
+
